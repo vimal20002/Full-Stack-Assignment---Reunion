@@ -163,7 +163,7 @@ const userSlice=createSlice({
 [getproperty.fulfilled]:(state, action)=>{
   state.loading=false;
   console.log(action.payload);
-  sessionStorage.setItem("property",JSON.stringify(action.payload))
+  // sessionStorage.setItem("property",JSON.stringify(action.payload))
   state.property=action.payload;
 },
 [getproperty.rejected]:(state, action)=>{
