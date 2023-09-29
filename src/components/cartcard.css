@@ -1,0 +1,32 @@
+.cartcard{
+    display: inline-flex;
+  
+    column-gap: 70px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 0px 5px #00013165;
+    border-radius: 15px;
+color: #000131;
+    
+}
+
+.cartcard:hover{
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: 0.6s all;
+    backdrop-filter:blur(10px);
+}
+.cartcard img{
+    width: 100px;
+    height: 100px;
+    
+    border-radius: 10px;
+}
+@media screen and (max-width:450px) {
+    .cartcard{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}

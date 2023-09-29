@@ -1,0 +1,89 @@
+.top{
+    width: 100%;
+    margin-top: -300px;
+}
+.nv{
+   
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 50px;
+    background-color: rgba(93, 93, 93, 0.331);
+    font-family: 'ChronicleDisplay';
+    backdrop-filter:blur(5px);
+}
+.logo{
+    width: 60px;
+    transform: scale(2.5);
+}
+.nav img {
+cursor: pointer;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.op{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 4px;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+.options{
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+    align-items: center;   
+}
+.op:hover{
+border-bottom: 2px solid #5271ff;
+transition: 0.9s;
+transform: scale(1.05);
+}
+.act{
+    border-bottom: 2px solid #5271ff;
+    color: #5271ff;
+}
+.avtar{
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+.ham{
+    filter: invert(1);
+}
+
+
+
+body{
+    font-family: 'ChronicleDisplay'; 
+
+}
+.login{
+    position: absolute;
+    right: 25px;
+}
+
+
+@media screen and (max-width:991px) {
+    .top{
+        height: 400px;
+    }
+    .logo{
+        width: 40px;
+    }
+    .avtar{
+        position: relative;
+        right: 0px;
+        margin-top: 10px;
+    }
+    .op{
+        font-size: 17px;
+    }
+}

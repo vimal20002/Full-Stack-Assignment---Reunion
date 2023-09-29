@@ -1,0 +1,21 @@
+.box{
+    display: inline-flex;
+    flex-direction: column;
+    /* row-gap: 10px; */
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 25px rgb(90, 233, 236);
+    margin: 50px 0px;
+    border-radius: 25px;
+}
+.box:hover{
+    box-shadow: 0px 0px 25px rgb(61, 35, 255);
+
+}
+.box .row{
+    padding-top: 5px;
+}
+.box .row input{
+    width: auto;
+}

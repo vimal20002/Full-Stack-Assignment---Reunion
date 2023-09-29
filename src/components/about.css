@@ -1,0 +1,34 @@
+.abt{
+    width: 300px;
+}
+.main-ab{
+    display: flex;
+    font-family: 'ChronicleDisplay';
+         
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.about-card{
+    display: inline-flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.about-card h2{
+    color: #000131;
+
+}
+.about-card p{
+    width: 600px;
+
+    letter-spacing: 1px;
+}
+.about-card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}

@@ -1,0 +1,86 @@
+.main-contact{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #000131;
+    color: white;
+    font-family: 'ChronicleDisplay';
+}
+.mnc{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.getInTouch{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 30px 50px;
+    border-radius: 20px;
+
+}
+
+input{
+    background-color: #8da2ff11;
+    border-radius: 8px;
+     outline: none;
+    width:300px;
+    /* height:40px; */
+    padding: 12px;
+    border: 1px solid #5271ff;
+    font-size: 15px;
+    font-weight: 500;
+    color:black;
+    letter-spacing: 1px;
+    font-family: 'ChronicleDisplay';
+}
+input::placeholder{
+    color:rgba(50, 50, 50, 0.726);
+}
+input:focus{
+    border: 2px solid #52ffa6;
+}
+textarea:focus{
+    border: 2px solid #52ffa6;
+}
+textarea{
+    letter-spacing: 1px;
+    /* background-color: blue; */
+    font-family: 'ChronicleDisplay';
+    border: 2px solid rgba(49, 0, 0, 0.871);
+    border-radius: 5px;
+     outline: none;
+    width:300px;
+    border: 1px solid #5271ff;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color:rgb(25, 33, 255);
+}
+textarea::placeholder{
+    color:rgba(50, 50, 50, 0.726);
+}
+@media screen and (max-width:450px) {
+    .getInTouch{
+        margin: 0px;
+    }
+    .getInTouch input{
+        width: 300px;
+    }
+    .getInTouch textarea{
+        width: 300px;
+    }
+}

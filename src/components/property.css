@@ -1,0 +1,46 @@
+.crs{
+    width: 70vw;
+    border-radius: 25px;
+}
+.crs img{
+    border-radius: 25px;
+    width: 80%;
+    
+}
+.main-p{
+    font-family: 'ChronicleDisplay';
+    margin-top: 50px;
+    width: 98vw;
+    padding: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.pricing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    column-gap: 50px;
+    padding: 10px;
+    border-radius: 25px;
+}
+.name{
+    color: #5271ff;
+    letter-spacing: 1px;
+}
+.pr{
+    margin-top: 8px;
+    color: rgb(247, 99, 99);
+}
+.mp{
+    margin-left: -10px;
+    width: 98vw;
+
+}
+p{
+    letter-spacing:1px;
+}
